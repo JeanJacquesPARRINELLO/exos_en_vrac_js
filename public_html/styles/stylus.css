@@ -1,0 +1,148 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27 mars 2018, 14:01:14
+    Author     : Jean-Jacques PARRINELLO <jj.parrinello@free.fr>
+*/
+
+body{
+    background-color: #343a40;
+    font-family: sans-serif;
+    padding-top: 10em;
+}
+
+div{
+    background-color: lightslategray;
+    background-color: wheat;
+    margin: 0% 15%;
+    padding-bottom: 1em;
+    border-radius: 5px;
+    border: 2px black solid;
+    padding: 0;
+}
+
+div.resultat{
+    border: none;
+    margin: 5% 5%;
+    padding: 0.8em 0.5em;
+    background-color: black;
+    border-left: 12px steelblue solid;
+    font-weight: normal;
+    color: white;
+    min-height: 4em;
+}
+
+h3{
+    margin: 0 15%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: crimson;
+    color: wheat;
+    padding: 0.2em 0.5em;
+    
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+button{
+    margin-left: 85%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    background-color: lightslategray;
+    padding: 0.5em 1.3em;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: crimson;
+    font-family: sans-serif;
+    color: wheat;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.saisie{
+    background-color: #343a40;
+    width: 100%;
+    height: 7em;
+    line-height: 7em;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-left: 0; 
+}
+
+.saisie h3{
+    display: inline-block;
+    background-color: #343a40;
+    color: white;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.saisie #messageInput{
+    display: inline-block;
+    margin: 0 10% 2em 10%;
+    width: 25%;
+    font-size: 1em;
+}
+
+.comment{
+    color: lightgray;
+    color: gray;
+    font-weight: normal;
+    font-style: italic;
+}
+/*
+.rollOn{
+    grid-column: 2;
+    background-color: #af2e02;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 0.5em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-bottom: auto;
+    border: none;
+    margin: auto;
+    width: 2em;
+    height: 1.5em;
+    justify-self: end;
+}
+
+h3 span.titre{
+    grid-column: 1;
+    background-color: #af2e02;
+    margin: 0;
+    padding: 0;
+    min-width: 7em;
+}*/
+
+.rollOn{
+    display: inline-block;
+    background-color: #af2e02;
+    color: white;
+    font-weight: bold;
+    /*text-align: left;*/
+    padding-left: 0.5em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-bottom: auto;
+    border: none;
+    /*margin: auto;*/
+    width: 2em;
+    height: 1.5em;
+    /*justify-self: end;*/
+}
+
+h3 span.titre{
+        /*background-color: #af2e02;*/
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    min-width: 7em;
+}
